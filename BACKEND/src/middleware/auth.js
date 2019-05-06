@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken')
 
 const User = require('../models/user')
 
-const miSecret = require('./config.js')
+const miSecret = require('../config.js')
 
 const auth = function( req, res, next ) {
   try {
