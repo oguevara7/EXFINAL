@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const miConfig = require('./config.js')
+const miConfig = require('../config.js')
 
 var connectionURL = miConfig.connectionURL
 
